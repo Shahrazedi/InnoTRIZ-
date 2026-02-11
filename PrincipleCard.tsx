@@ -1,6 +1,6 @@
 
 import React, { useMemo, memo } from 'react';
-import { InventivePrinciple } from '../types';
+import { InventivePrinciple } from './types';
 import { Language, translations } from './translations';
 
 interface Props {
