@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import Header from './components/Header';
-import PrincipleCard from './components/PrincipleCard';
-import ContradictionMatrix from './components/ContradictionMatrix';
-import InnovationReport from './components/InnovationReport';
-import HistoryList from './components/HistoryList';
+import Header from './Header';
+import PrincipleCard from './PrincipleCard';
+import ContradictionMatrix from './ContradictionMatrix';
+import InnovationReport from './InnovationReport';
+import HistoryList from './HistoryList';
 import { INVENTIVE_PRINCIPLES, TRIZ_PARAMETERS, getPrinciplesForContradiction, TRIZ_EXAMPLES, TrizExample } from './constants';
-import { analyzeProblemWithAI, generateInnovationDraft } from './services/geminiService';
+import { analyzeProblemWithAI, generateInnovationDraft } from './geminiService';
 import { SavedSession } from './types';
 import { Language, translations } from './translations';
 
