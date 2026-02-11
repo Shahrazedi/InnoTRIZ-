@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { SavedSession } from '../types';
-import { Language, translations } from '../translations';
+import { Language, translations } from './translations';
 
 interface Props {
   sessions: SavedSession[];
