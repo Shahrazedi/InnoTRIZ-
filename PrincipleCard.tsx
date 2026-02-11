@@ -1,7 +1,7 @@
 
 import React, { useMemo, memo } from 'react';
 import { InventivePrinciple } from '../types';
-import { Language, translations } from '../translations';
+import { Language, translations } from './translations';
 
 interface Props {
   principle: InventivePrinciple & { nameEn?: string; descriptionEn?: string; examplesEn?: string[] };
