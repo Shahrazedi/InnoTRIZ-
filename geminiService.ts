@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { TRIZ_PARAMETERS, INVENTIVE_PRINCIPLES } from "../constants";
+import { TRIZ_PARAMETERS, INVENTIVE_PRINCIPLES } from "./constants";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
