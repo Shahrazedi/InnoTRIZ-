@@ -2,7 +2,7 @@
 import React, { useState, useMemo } from 'react';
 import { TRIZ_PARAMETERS, getPrinciplesForContradiction, INVENTIVE_PRINCIPLES } from '../constants';
 import PrincipleCard from './PrincipleCard';
-import { Language, translations } from '../translations';
+import { Language, translations } from './translations';
 
 interface Props {
   lang: Language;
